@@ -71,6 +71,7 @@ nav {
 
   }
   
+
   /*///////////////////////////////////////////////////// HEADER ///////////////////////////////////////////////////////////////////// */
 
 .hero{
@@ -92,39 +93,3 @@ nav {
   font-family: "potta one", sans-serif;
 }
 
-/* ///////////////////////////////////////////////////AFFILIATION AND RECOGNISATION ////////////////////////////////////////////////////////*/
-
-.affiliations {
-    color: #ffa31a;
-  }
-  .affiliationlogo {
-    text-align: center;
-  }
-  .affiliationheading {
-    color: #ffa31a;
-    text-align: center;
-    padding-bottom: 25px;
-    padding-top: 25px;
-  }
-  /* //////////////////////////////////////////////////EVENTS AND UPDATES ////////////////////////////////////////////////////////////*/
-.eventsandupdates {
-    text-align: center;
-    padding-top: 15px;
-  }
-  marquee {
-    text-align: center;
-    width: 1100px;
-  }
-  marquee h1 {
-    box-sizing: none;
-    z-index: 0;
-  }
-  
-  .pdflinks {
-    text-align: center;
-    color: #ffa31a;
-  }
-  .bg1 {
-    background-image: url(./pictures/bg1.jpg);
-    background-size: cover;
-  }
