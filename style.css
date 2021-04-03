@@ -6,90 +6,125 @@
   box-sizing: border-box;
   font-family: Open Sans, sans-serif;
   scroll-behavior: smooth;
+  background-color: ;
 }
 
 /* /////////////////////////////////////////////////////////// NAVBAR//////////////////////////////////////////////////////////// */
 
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 100px;
-    z-index: 1000;
-    background-color: black;
-  }
-  nav.sticky {
-    padding: 5px 100px;
-    background: #ffa31a;
-    border-bottom: 1px solid(0, 0, 0, 0.1);
-  }
-  
-  nav .logo {
-    position: relative;
-    font-weight: 700;
-    color: #ffa31a;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.6s;
-    display: flex;
-  }
-  nav ul {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav ul li {
-    position: relative;
-    list-style: none;
-  }
-  nav ul li a {
-    position: relative;
-    margin: 0 15px;
-    text-decoration: none;
-    color: #ffa31a;
-    letter-spacing: 0.5px;
-    font-weight: 700;
-    transition: 0.6s;
-  }
-  
-  nav.sticky .logo,
-  nav.sticky ul li a {
-    color: #000;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  z-index: 1000;
+  background-color: black;
+}
+nav.sticky {
+  padding: 5px 100px;
+  background: #ffde00;
+  border-bottom: 1px solid(0, 0, 0, 0.1);
+}
 
-.container{ 
-    margin: auto;
-    width: 80%;
-    text-align: center;
+nav .logo {
+  position: relative;
+  font-weight: 700;
+  color: #ffde00;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+  display: flex;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  position: relative;
+  list-style: none;
+}
+nav ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffde00;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  transition: 0.6s;
+}
 
-  }
-  
+nav.sticky .logo,
+nav.sticky ul li a {
+  color: #000;
+}
 
-  /*///////////////////////////////////////////////////// HEADER ///////////////////////////////////////////////////////////////////// */
+.container {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
 
-.hero{
+/*///////////////////////////////////////////////////// HEADER ///////////////////////////////////////////////////////////////////// */
+
+.hero {
   background: url(./pictures/bg-header.png) no-repeat center;
   position: relative;
   overflow: hidden;
   background-size: cover;
   margin-top: 117px;
 }
-.hero-content{
+.hero-content {
   padding: 80px 0;
-  
+
   color: rgb(0, 0, 0);
-  text-shadow: 0 0 20px #ffa600;
-  
+  /* text-shadow: 0 0 20px #ffde00; */
+
+  text-shadow: -1px -1px 0 #ffde00, 2px -1px 0 #ffde00, -1px 2px 0 #ffde00,
+    2px 2px 0 #ffde00;
 }
-.hero-content h1{
+.hero-content h1 {
   font-size: 36px;
   font-family: "potta one", sans-serif;
 }
 
+/*///////////////////////////////////////////////////// INTRO ///////////////////////////////////////////////////////////////////// */
+.intro {
+  background-color: #ffde00;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.intro1 {
+  display: flex;
+  padding: 0 150px;
+}
+.intro1 p {
+  margin: auto 0px;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  padding: 5px;
+}
+.intro1 img {
+  width: 450px;
+}
+.intro2 {
+  display: flex;
+  padding: 0 150px;
+}
+
+.intro2 p {
+  margin: auto 0px;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  padding: 5px;
+}
+.intro2 img {
+  width: 1800px;
+}
