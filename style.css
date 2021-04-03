@@ -113,7 +113,7 @@ nav.sticky ul li a {
 .intro2 {
   display: flex;
   padding: 0 150px;
-  margin-top: -140px;
+  margin-top: -120px;
 }
 .intro2 p {
   margin: auto 0px;
@@ -124,13 +124,29 @@ nav.sticky ul li a {
 .intro2 img {
   width: 1800px;
 }
+
+/* //////////////////////////////////////////////////EVENTS AND UPDATES ////////////////////////////////////////////////////////////*/
+.events-and-updates {
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 70px;
+}
+marquee {
+  text-align: center;
+  width: 1100px;
+}
+marquee h1 {
+  box-sizing: none;
+  z-index: 0;
+}
+
 /*/////////////////////////////////////////////////// AFFILIATIONS AND RECOGNISATION ///////////////////////////////////////////////////// */
 
 .affi-recog {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .affi h1 {
   margin-bottom: 20px;
