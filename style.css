@@ -70,7 +70,6 @@ nav.sticky ul li a {
   width: 80%;
   text-align: center;
 }
-
 /*///////////////////////////////////////////////////// HEADER ///////////////////////////////////////////////////////////////////// */
 
 .hero {
@@ -84,8 +83,6 @@ nav.sticky ul li a {
   padding: 80px 0;
 
   color: rgb(0, 0, 0);
-  /* text-shadow: 0 0 20px #ffde00; */
-
   text-shadow: -1px -1px 0 #ffde00, 2px -1px 0 #ffde00, -1px 2px 0 #ffde00,
     2px 2px 0 #ffde00;
 }
@@ -100,7 +97,6 @@ nav.sticky ul li a {
   border-radius: 50%;
   margin-top: 10px;
 }
-
 .intro1 {
   display: flex;
   padding: 0 150px;
@@ -110,7 +106,6 @@ nav.sticky ul li a {
   letter-spacing: 1px;
   font-size: 1.1em;
   font-weight: 700;
-  padding: 5px;
 }
 .intro1 img {
   width: 450px;
@@ -118,15 +113,28 @@ nav.sticky ul li a {
 .intro2 {
   display: flex;
   padding: 0 150px;
+  margin-top: -140px;
 }
-
 .intro2 p {
   margin: auto 0px;
   letter-spacing: 1px;
   font-size: 1.1em;
   font-weight: 700;
-  padding: 5px;
 }
 .intro2 img {
   width: 1800px;
+}
+/*/////////////////////////////////////////////////// AFFILIATIONS AND RECOGNISATION ///////////////////////////////////////////////////// */
+
+.affi-recog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.affi h1 {
+  margin-bottom: 20px;
+}
+.recog h1 {
+  margin-bottom: 20px;
 }
