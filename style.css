@@ -89,6 +89,10 @@ nav.sticky ul li a {
 .hero-content h1 {
   font-size: 36px;
 }
+.hero-content img {
+  max-width: 100%;
+  min-width: 10%;
+}
 
 /*///////////////////////////////////////////////////// INTRO ///////////////////////////////////////////////////////////////////// */
 .intro {
@@ -132,7 +136,7 @@ nav.sticky ul li a {
 }
 marquee {
   text-align: center;
-  width: 1100px;
+  max-width: 1100px;
 }
 marquee h1 {
   box-sizing: none;
