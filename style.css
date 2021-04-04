@@ -157,3 +157,21 @@ marquee h1 {
 .recog h1 {
   margin-bottom: 20px;
 }
+
+/*//////////////////////////////////////////////////////// NOTICES AND CIRCULARS////////////////////////////////////////////////// */
+.noticesandcirculars {
+  text-align: center;
+  padding-top: 15px;
+  color: #ffa31a;
+}
+.noticesandcirculars a {
+  color: #ffa31a;
+}
+.n-c {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./pictures/bg2.jpg);
+  background-size: cover;
+}
+.ncbg {
+  background: rgba(0, 0, 0, 0.2);
+}
