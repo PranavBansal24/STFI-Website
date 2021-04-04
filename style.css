@@ -167,6 +167,9 @@ marquee h1 {
 .noticesandcirculars a {
   color: #ffa31a;
 }
+.noticesandcirculars p {
+  font-size: 1.1em;
+}
 .n-c {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./pictures/bg2.jpg);
