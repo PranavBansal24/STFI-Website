@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -88,7 +88,6 @@ nav.sticky ul li a {
 }
 .hero-content h1 {
   font-size: 36px;
-  font-family: "potta one", sans-serif;
 }
 
 /*///////////////////////////////////////////////////// INTRO ///////////////////////////////////////////////////////////////////// */
@@ -103,8 +102,8 @@ nav.sticky ul li a {
 }
 .intro1 p {
   margin: auto 0px;
-  letter-spacing: 1px;
-  font-size: 1.1em;
+  letter-spacing: 0.7px;
+  font-size: 1em;
   font-weight: 700;
 }
 .intro1 img {
@@ -117,8 +116,8 @@ nav.sticky ul li a {
 }
 .intro2 p {
   margin: auto 0px;
-  letter-spacing: 1px;
-  font-size: 1.1em;
+  letter-spacing: 0.7px;
+  font-size: 1em;
   font-weight: 700;
 }
 .intro2 img {
