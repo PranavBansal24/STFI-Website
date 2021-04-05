@@ -141,7 +141,7 @@ nav.sticky ul li a {
 
 /*///////////////////////////////////////////////////// INTRO ///////////////////////////////////////////////////////////////////// */
 .intro {
-  background-color: #fbe136;
+  background-color: #ffea5f;
   border-radius: 50%;
   margin-top: 10px;
 }
@@ -214,6 +214,9 @@ marquee h1 {
 }
 .noticesandcirculars p {
   font-size: 1.1em;
+}
+.noticesandcirculars marquee {
+  height: 500px;
 }
 .n-c {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
