@@ -9,6 +9,12 @@
   background-color: ;
 }
 
+.container {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
 /* /////////////////////////////////////////////////////////// NAVBAR//////////////////////////////////////////////////////////// */
 
 nav {
@@ -19,12 +25,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 100px;
+  padding: 40px 120px;
   z-index: 1000;
   background-color: black;
 }
 nav.sticky {
-  padding: 5px 100px;
+  padding: 5px 120px;
   background: #ffde00;
   border-bottom: 1px solid(0, 0, 0, 0.1);
 }
@@ -65,10 +71,49 @@ nav.sticky ul li a {
   color: #000;
 }
 
-.container {
-  margin: auto;
-  width: 80%;
-  text-align: center;
+.dropdown {
+  float: left;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(255, 128, 0);
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  transition: 0.6s;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 /*///////////////////////////////////////////////////// HEADER ///////////////////////////////////////////////////////////////////// */
 
