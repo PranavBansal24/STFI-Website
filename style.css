@@ -226,3 +226,21 @@ marquee h1 {
 .ncbg {
   background: rgba(0, 0, 0, 0.2);
 }
+/*////////////////////////////////////////////////////////////// ELECTIONS////////////////////////////////////////////////////////////// */
+.electionbg {
+  background: url(./pictures/bgall.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+.election {
+  padding-top: 230px;
+}
+.election h1 {
+  margin: 20px;
+}
+.election a {
+  color: #000;
+  line-height: 33px;
+}
