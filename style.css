@@ -228,7 +228,7 @@ marquee h1 {
 }
 /*////////////////////////////////////////////////////////////// ELECTIONS////////////////////////////////////////////////////////////// */
 .electionbg {
-  background: url(./pictures/bgall.jpg);
+  background: url(./pictures/bgall.png);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -243,4 +243,5 @@ marquee h1 {
 .election a {
   color: #000;
   line-height: 33px;
+  font-weight: 600;
 }
