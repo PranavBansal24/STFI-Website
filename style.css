@@ -261,3 +261,13 @@ marquee h1 {
 .rules a {
   color: #000;
 }
+/*/////////////////////////////////////////////////////////         HISTORY      ///////////////////////////////////////////////////////////// */
+.history {
+  padding: 200px 0 50px 0;
+  background: url(./pictures/bgall.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  font-weight: 600;
+}
