@@ -172,8 +172,75 @@ nav.sticky ul li a {
 .intro2 img {
   max-width: 1800px;
 }
-
-/* //////////////////////////////////////////           EVENTS AND UPDATES               ////////////////////////////////////////////////////*/
+@media (max-width: 1437px) {
+  .intro {
+    border-radius: 10%;
+  }
+  .intro1 img {
+    max-width: 270px;
+  }
+  .intro2 img {
+    max-width: 450px;
+  }
+  .intro2 {
+    display: flex;
+    padding: 0 150px;
+    margin-top: -50px;
+  }
+}
+@media (max-width: 1213px) {
+  .intro {
+    border-radius: 10%;
+  }
+  .intro1 img {
+    max-width: 200px;
+  }
+  .intro2 img {
+    max-width: 300px;
+  }
+  .intro1 {
+    padding: 0 50px;
+  }
+  .intro2 {
+    padding: 0 10px;
+    margin-top: -10px;
+  }
+}
+@media (max-width: 1123px) {
+  .intro1 p {
+    font-weight: 500;
+  }
+  .intro2 p {
+    font-weight: 500;
+  }
+}
+@media (max-width: 1035px) {
+  .intro {
+    border-radius: 10%;
+  }
+  .intro1 {
+    padding: 5px;
+  }
+  .intro2 {
+    padding: 5px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 637px) {
+  .intro1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .intro2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+  }
+}
+/* ////////////////////////////////////////// EVENTS AND UPDATES ////////////////////////////////////////////////////*/
 .events-and-updates {
   text-align: center;
   padding-top: 15px;
@@ -379,7 +446,7 @@ footer {
   display: grid;
   justify-content: end;
   align-content: end;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 .footer-content {
   position: relative;
