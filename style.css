@@ -80,7 +80,7 @@ nav.sticky ul li a {
   font-size: 16px;
   border: none;
   outline: none;
-  color: rgb(255, 128, 0);
+  color: #ff8000;
   letter-spacing: 0.5px;
   font-weight: 700;
   transition: 0.6s;
@@ -386,7 +386,7 @@ footer {
   width: 100%;
   padding: 50px 100px;
   height: auto;
-  background-color: aqua;
+  background-color: #ffde00;
 }
 footer .container-footer {
   width: 100%;
@@ -396,21 +396,21 @@ footer .container-footer {
 }
 footer .container-footer .sec h2 {
   position: relative;
-  color: red;
+  color: black;
   font-weight: 500;
   margin-bottom: 15px;
 }
-footer .container-footer .sec h2 ::before {
+footer .container-footer .sec h2::before {
   content: "";
   position: absolute;
   bottom: -5px;
   left: 0;
   width: 50px;
   height: 2px;
-  background-color: seagreen;
+  background: #ff8000;
 }
 footer .container-footer .sec p {
-  color: red;
+  color: black;
 }
 .social {
   margin-top: 20px;
@@ -425,7 +425,7 @@ footer .container-footer .sec p {
   display: inline-block;
   width: 48px;
   height: 48px;
-  background-color: sienna;
+  background-color: #ff3300;
   display: grid;
   align-content: center;
   justify-content: center;
@@ -433,9 +433,24 @@ footer .container-footer .sec p {
   border-radius: 4px;
 }
 .social li a:hover {
-  background-color: seagreen;
+  background-color: #ff8000;
 }
 .social li a .fa {
-  color: red;
+  color: black;
   font-size: 20px;
+}
+.quick-links {
+  position: relative;
+}
+.quick-links li {
+  list-style: none;
+}
+.quick-links li a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.quick-links li a:hover {
+  color: #ff8000;
 }
