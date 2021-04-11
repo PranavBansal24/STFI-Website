@@ -354,6 +354,7 @@ img {
   max-width: 800px;
   position: relative;
   margin: auto;
+  padding-top: 50px;
 }
 
 /* Next & previous buttons */
