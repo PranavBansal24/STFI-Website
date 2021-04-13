@@ -272,7 +272,16 @@ marquee h1 {
 .recog h1 {
   margin-bottom: 20px;
 }
-
+@media (max-width: 470px) {
+  .affi-recog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .recog {
+    margin-top: 20px;
+  }
+}
 /*////////////////////////////////////////////////             NOTICES AND CIRCULARS           /////////////////////////////////////////// */
 .noticesandcirculars {
   text-align: center;
