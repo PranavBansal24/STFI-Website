@@ -458,6 +458,37 @@ img {
     font-size: 11px;
   }
 }
+
+/* //////////////////////////////////////////////////////////MYAS COMPLIANCE //////////////////////////////////////////////*/
+.myas {
+  background: url(./pictures/bgall.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+.myasheading {
+  text-align: center;
+  padding-top: 200px;
+}
+.compilancetable {
+  margin: 0 auto;
+}
+table th td {
+  border: 1px solid #ffa31a;
+}
+table {
+  margin: 0 auto;
+  border: 1px solid #ffa31a;
+  border-collapse: collapse;
+}
+table a {
+  color: #000;
+  padding: 4px;
+}
+td {
+  border: 1px solid #ffa31a;
+}
 /*/////////////////////////////////////////////////////////         FOOTER     ///////////////////////////////////////////////////////////// */
 
 footer {
