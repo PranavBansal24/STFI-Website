@@ -367,8 +367,7 @@ img {
 .slideshow-container {
   max-width: 800px;
   position: relative;
-  margin: auto;
-  padding-top: 120px;
+  margin: 120px auto 0 auto;
 }
 /* Next & previous buttons */
 .prev,
