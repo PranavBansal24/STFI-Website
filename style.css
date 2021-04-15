@@ -362,6 +362,12 @@ marquee h1 {
   font-weight: 600;
 }
 /*/////////////////////////////////////////////////////////         GALLERY     ///////////////////////////////////////////////////////////// */
+.gallery h1 {
+  text-align: center;
+  margin: 70px 0 70px 0;
+  text-decoration: underline;
+}
+
 .mySlides {
   display: none;
 }
@@ -373,7 +379,7 @@ img {
 .slideshow-container {
   max-width: 800px;
   position: relative;
-  margin: 120px auto 0 auto;
+  margin: 0px auto -60px auto;
 }
 /* Next & previous buttons */
 .prev,
@@ -532,7 +538,7 @@ footer {
   display: grid;
   justify-content: end;
   align-content: end;
-  min-height: 60vh;
+  height: 100%;
 }
 .footer-content {
   position: relative;
