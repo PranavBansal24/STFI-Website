@@ -22,7 +22,7 @@
 /* ///////////////////////////////////////////////// NAVBAR ///////////////////////////////////////////////// */
 
 nav {
-  display: block;
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -140,6 +140,9 @@ nav .icon-burger .line {
   transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 1230px) {
+  nav {
+    display: block;
+  }
   nav .logo {
     float: none;
     width: auto;
