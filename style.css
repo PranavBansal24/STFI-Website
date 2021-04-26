@@ -376,6 +376,7 @@ marquee h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 0px;
   }
   .recog {
     margin-top: 20px;
@@ -628,6 +629,7 @@ footer {
   align-content: end;
   height: 100%;
 }
+
 .footer-content {
   position: relative;
   width: 100%;
@@ -744,5 +746,8 @@ footer .container-footer .sec p {
 @media (max-width: 768px) {
   footer .container-footer {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-img {
+    margin-top: 100px;
   }
 }
